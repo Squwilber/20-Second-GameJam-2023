@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://5wu4moihcvm1"]
+
+[ext_resource type="Texture2D" uid="uid://gs5qplqby2gm" path="res://resources/sprites/Blueberry.png" id="1_4pofo"]
+[ext_resource type="Texture2D" uid="uid://6qnn4l0jek6q" path="res://resources/sprites/Grape.png" id="2_svjlt"]
+[ext_resource type="Texture2D" uid="uid://bnuaib27mo5uj" path="res://resources/sprites/Lemon.png" id="3_7tf2w"]
+[ext_resource type="Texture2D" uid="uid://chwu6q62t3le7" path="res://resources/sprites/Watermelon.png" id="4_rg8hm"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Blueberry" type="Sprite2D" parent="."]
+position = Vector2(476, 555)
+texture = ExtResource("1_4pofo")
+
+[node name="Grape" type="Sprite2D" parent="."]
+position = Vector2(500, 553)
+texture = ExtResource("2_svjlt")
+
+[node name="Lemon" type="Sprite2D" parent="."]
+position = Vector2(478, 574)
+texture = ExtResource("3_7tf2w")
+
+[node name="Watermelon" type="Sprite2D" parent="."]
+position = Vector2(502, 573)
+texture = ExtResource("4_rg8hm")
